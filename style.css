@@ -1,0 +1,104 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Red Rose", cursive;
+}
+
+:root {
+  --dela-gothic: 'Dela Gothic One', cursive;
+  --primary-color: #E8BD0D;
+  --secondary-color: #FF6263;
+  --white-color: #ffffff;
+}
+
+.container {
+  height: 100vh;
+  background-image: linear-gradient(to right bottom, rgba(11, 39, 63, 0.637),rgba(2, 21, 56, 0.829) ),url(./assets/pexels-maxyne-barcel-10402282\ 1.png);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 1% 5%;
+}
+
+/* ------------------------------ */
+/* ---------- NAVBAR ------------ */
+/* ------------------------------ */
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.navbar .logo {
+  width: 8rem;
+}
+
+.navbar .list {
+  display: flex;
+  flex-direction: row;
+}
+
+.list .list-item {
+  list-style: none;
+  font-size: 15px;
+  padding: 0 2rem;
+  font-weight: 400;
+  cursor: pointer;
+  color: var(--primary-color);
+}
+
+.button-small {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  width: 90px;
+  padding: 8px 10px;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/* ------------------------------ */
+/* ---------- HERO ------------ */
+/* ------------------------------ */
+
+section .hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero-heading {
+  margin-top: 3rem;
+  font-family: var(--dela-gothic);
+  font-size: 6rem;
+  font-weight: 500;
+  color: var(--primary-color);
+  text-align: center;
+  line-height: 1;
+}
+
+section .bottom {
+  position: fixed;
+  bottom: 2rem;
+  right: 4rem;
+}
+
+.button-large {
+  background-color: var(--secondary-color);
+  color: var(--white-color);
+  width: 13rem;
+  padding: 14px 10px;
+  border: none;
+  font-size: 19px;
+  font-weight: 500;
+  margin-top: 33px;
+  cursor: pointer;
+}
+
+section .bottom img {
+  height: 18vh;
+}
